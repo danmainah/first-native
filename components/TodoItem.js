@@ -5,9 +5,9 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from "react-native";
-import { CheckBox } from "react-native-web";
+import { CheckBox } from "@react-native-community/checkbox";
  
-const TodoItem = props => {
+const TodoItem = (props) => {
   const [check, setCheck] = useState(false);
   return (
     <View style={styles.screen}>
